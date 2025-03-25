@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <h1>Contacto</h1>
+        <p>Envíame un mensaje y me pondré en contacto contigo.</p>
+    </header>
+
+    <form action="contacto.html" method="post">
+        <label for="nombre">Nombre (obligatorio):</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <br><br>
+
+        <label for="correo">Correo Electrónico (obligatorio):</label>
+        <input type="email" id="correo" name="correo" required>
+        <br><br>
+
+        <label for="telefono">Teléfono (opcional):</label>
+        <input type="tel" id="telefono" name="telefono">
+        <br><br>
+
+        <label>Preferencia de Contacto:</label><br>
+        <input type="radio" id="email" name="contacto_pref" value="email">
+        <label for="email">Correo Electrónico</label><br>
+
+        <input type="radio" id="telefono" name="contacto_pref" value="telefono">
+        <label for="telefono">Teléfono</label><br><br>
+
+        <label for="mensaje">Mensaje (obligatorio):</label><br>
+        <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+        <br><br>
+
+        <button type="submit">Enviar Mensaje</button>
+    </form>
+
+    <br>
+    <a href="Curriculum.html">⬅️ Volver al Currículum</a>
+
+    <footer>
+        <p>© 2024 Benjamin Mella Andrade. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
